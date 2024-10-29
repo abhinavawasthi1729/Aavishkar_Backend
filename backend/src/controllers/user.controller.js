@@ -33,7 +33,7 @@ const registerUser = asyncHandler( async(req, res)=>{
     // return res
 
     const {fullname, email, username, password}=  req.body
-    // console.log("email : ", email)
+    console.log("email : ", email)
 
     if(
         [fullname, email, username, password].some(
